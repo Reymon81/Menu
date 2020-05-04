@@ -18,8 +18,7 @@ public class Menu {
 		Scanner sc = new Scanner(System.in);
 		boolean salir = false;
 		int opcion; // GUARDAMOS LA OPCION DEL USUARIO
-		String respuesta = "";
-
+		
 		while (!salir) {
 
 			printMenu();
