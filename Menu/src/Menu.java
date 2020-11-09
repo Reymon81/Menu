@@ -13,8 +13,8 @@ public class Menu {
 				+ "4. Salir\n");
 	}
 
-	// FUNCION QUE EJECUTA EL MENU
-	public static void ejecutarMenu() {
+	public static void main(String[] args) {
+
 		Scanner sc = new Scanner(System.in);
 		boolean salir = false;
 		int opcion; // GUARDAMOS LA OPCION DEL USUARIO
@@ -23,7 +23,6 @@ public class Menu {
 
 			printMenu();
 			try {
-
 				System.out.print("Elije una opcion: ");
 				opcion = sc.nextInt();
 
@@ -40,7 +39,6 @@ public class Menu {
 				case 4:
 					salir = true;
 					break;
-
 				}
 			} catch (InputMismatchException e) {
 				System.out.println("Error, elije una opcion del 1 al 4");
@@ -48,11 +46,4 @@ public class Menu {
 			}
 		}
 	}
-
-	public static void main(String[] args) {
-
-		ejecutarMenu();
-
-	}
-
 }
