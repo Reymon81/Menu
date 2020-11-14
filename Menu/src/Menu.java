@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Menu {
 	
-	//FUNCION QUE IMPRIME LAS OPCIONES QUE TENEMOS EN EL MENU
+	//METODO QUE IMPRIME LAS OPCIONES QUE TENEMOS EN EL MENU
 	public static void printMenu() {
 		
 		System.out.println("\n****** MENU *******\n");
